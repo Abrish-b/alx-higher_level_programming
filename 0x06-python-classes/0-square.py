@@ -2,6 +2,9 @@
 
 
 class square:
-    def __dict__(self):
-        self.arr = {}
-        print(self.arr)
+    
+
+    def __init__(self,size):
+        
+
+        self.__arr = size
