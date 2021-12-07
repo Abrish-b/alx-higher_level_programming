@@ -2,4 +2,6 @@
 
 
 class square:
-    pass
+    def __dict__(self):
+        self.arr = {}
+        print(self.arr)
