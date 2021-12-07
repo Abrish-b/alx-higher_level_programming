@@ -4,7 +4,6 @@
 class square:
     
 
-    def __init__(self,size):
+    def __init__(self, size):
         
-
-        self.__arr = size
+        self.__size = size
