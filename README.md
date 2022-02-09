@@ -1,2 +1,1 @@
-This High level programming part of ALX 
--Python
+This is for low level programming
