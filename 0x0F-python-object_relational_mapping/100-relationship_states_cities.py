@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# Creates the State “California” with the City “San Francisco”
+# Creates the  with the San 
 # from the database hbtn_0e_100_usa.
 # Usage: ./100-relationship_states_cities.py <mysql username> /
 #                                            <mysql password> /
@@ -20,3 +20,4 @@ if __name__ == "__main__":
 
     session.add(City(name="San Francisco", state=State(name="California")))
     session.commit()
+    session.close()
